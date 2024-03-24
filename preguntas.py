@@ -21,7 +21,7 @@ def read_file(file_csv):
     return data
 
 file_csv = 'data.csv'
-# data_csv = read_file(file_csv)
+file_csv = read_file(file_csv)
 # print(data_csv)
 
 
