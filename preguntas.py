@@ -12,6 +12,7 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 """
 
+
 def read_file(file_csv):
     data = []
     with open(file_csv, newline='') as file:
@@ -21,7 +22,7 @@ def read_file(file_csv):
     return data
 
 file_csv = 'data.csv'
-file_csv = read_file(file_csv)
+read_file_csf = read_file(file_csv)
 # print(data_csv)
 
 
